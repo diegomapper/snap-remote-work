@@ -33,3 +33,22 @@ html {
     align-items: flex-start;
     padding: 2rem;
 }
+
+/* MAIN SECTION */
+
+main {
+    max-width: 50rem;
+}
+
+/* Main image */
+
+.main-image {
+    width: 100%;
+    height: 30rem;
+    background-image: url('./images/image-hero-mobile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Information section */
+
