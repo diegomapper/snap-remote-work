@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Epilogue', sans-serif;
+}
+
+:root {
+    /* Colors */
+    --almost-white: hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+
+    /* Typography */
+    --paragraph: 1.8rem;
+
+    /* Font weights */
+    --medium: 500;
+    --bold: 700;
+}
+
+/* HEADER */
+
+/* Navigation bar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+}
