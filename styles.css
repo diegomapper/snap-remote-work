@@ -16,7 +16,7 @@ html {
     --almost-black: hsl(0, 0%, 8%);
 
     /* Typography */
-    --paragraph: 1.8rem;
+    --paragraph: 1.6rem;
 
     /* Font weights */
     --medium: 500;
@@ -52,3 +52,37 @@ main {
 }
 /* Information section */
 
+.main {
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.main__title {
+    font-size: 2.3rem;
+    font-weight: var(--bold);
+    color: var(--almost-black);
+}
+
+.main__text {
+    font-size: var(--paragraph);
+    font-weight: var(--medium);
+    color: var(--medium-gray);
+    text-align: center;
+    line-height: 3rem;
+}
+
+.main__button button {
+    height: 4.5rem;
+    width: 14rem;
+    background-color: var(--almost-black);
+    color: var(--almost-white);
+    border-style: none;
+    border-radius: 1rem;
+    font-size: var(--paragraph);
+    font-weight: var(--bold);
+    letter-spacing: .1rem;
+    
+}
