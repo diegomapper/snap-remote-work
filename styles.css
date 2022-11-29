@@ -33,6 +33,10 @@ body {
 
 /* HEADER */
 
+header {
+    min-width: 100%;
+}
+
 /* Navigation bar */
 
 .navbar {
