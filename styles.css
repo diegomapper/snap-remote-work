@@ -96,7 +96,7 @@ main {
     font-size: var(--paragraph);
     font-weight: var(--bold);
     letter-spacing: .1rem;
-    
+    cursor: pointer;
 }
 
 /* FOOTER SECTION */
