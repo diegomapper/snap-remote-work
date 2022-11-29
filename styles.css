@@ -115,3 +115,14 @@ footer {
     height: auto;
     cursor: pointer;
 }
+
+/* Responsive - Desktop */
+
+@media  screen and (min-width: 1200px) {
+
+    /* Navigation bar */
+
+    .navbar__menuicon {
+        display: none;
+    }
+}
