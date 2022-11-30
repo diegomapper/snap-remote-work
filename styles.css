@@ -43,6 +43,10 @@ header {
     padding: 2rem;
 }
 
+.desktop-menu {
+    display: none;
+}
+
 /* MAIN SECTION */
 
 main {
@@ -128,7 +132,9 @@ footer {
 
     .desktop-menu {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
     }
 
     .desktop-menu__options {
@@ -136,11 +142,11 @@ footer {
         display: flex;
         align-items: center;
         justify-content: space-between;
-
+        padding-left: 5rem;
     }
 
-    .desktop-menu__options ul {
-        /* min-width: 50rem; */
+    .desktop-menu__options ul,
+    .desktop-menu__signup ul {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -156,5 +162,19 @@ footer {
 
     .desktop-menu__options ul li > img {
         padding-left: 1rem;
+    }
+
+    .desktop-menu__signup {
+        width: 15rem;
+    }
+    
+    .desktop-menu__signup button {
+        width: 8rem;
+        height: 4rem;
+        color: var(--medium-gray);
+        border-style: none;
+        background-color: var(--almost-white);
+        border: .1rem solid var(--medium-gray);
+        border-radius: 1rem;
     }
 }
