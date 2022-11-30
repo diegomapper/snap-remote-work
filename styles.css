@@ -125,4 +125,36 @@ footer {
     .navbar__menuicon {
         display: none;
     }
+
+    .desktop-menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .desktop-menu__options {
+        /* min-width: 50rem; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .desktop-menu__options ul {
+        /* min-width: 50rem; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        font-size: 1.2rem;
+        color: var(--medium-gray);
+        cursor: pointer;
+    }
+
+    .desktop-menu__options ul li {
+        padding-right: 5rem;
+    }
+
+    .desktop-menu__options ul li > img {
+        padding-left: 1rem;
+    }
 }
