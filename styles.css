@@ -39,7 +39,7 @@ header {
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 2rem;
 }
 
@@ -125,6 +125,10 @@ footer {
 @media  screen and (min-width: 1200px) {
 
     /* Navigation bar */
+
+    .navbar {
+        padding: 3rem 4rem;
+    }
 
     .navbar__menuicon {
         display: none;
