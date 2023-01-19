@@ -61,7 +61,7 @@ main {
     background-image: url('./images/image-hero-mobile.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 /* Information section */
 
@@ -180,6 +180,40 @@ footer {
         background-color: var(--almost-white);
         border: .1rem solid var(--medium-gray);
         border-radius: 1rem;
+    }
+
+    /* MAIN SECTION */
+
+    main {
+        /* width: 80rem; */
+        height: 60rem;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "description image";
+    }
+
+    .main {
+        width: 50rem;
+        grid-area: description;
+        display: flex;
+    }
+    .main__title {
+        font-size: 4.6rem;
+    }
+    .main__text {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .main-image {
+        width: 50rem;
+        height: auto;
+        grid-area: image;
+        background-image: url('./images/image-hero-desktop.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 }
 
