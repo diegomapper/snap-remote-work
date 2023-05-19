@@ -179,9 +179,12 @@ footer {
         width: 14rem;
         position: absolute;
         display: flex;
+        /* display: none; */
         justify-content: center;
         border-radius: 1rem;
         box-shadow: 0px 10px 30px 5px rgba(0,0,0,0.1);
+        top: 7rem;
+        left: 11rem;
     }
     .desktop-menu__options--features-menu ul {
         height: 100%;
