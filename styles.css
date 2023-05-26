@@ -303,4 +303,12 @@ footer {
     .show {
         display: block;
     }
+
+    .arrow-down {
+        transition: transform 0.1s;
+        /* transform-origin: center; */
+    }
+    .arrow-up {
+        transform: rotateX(180deg);
+    }
 }
