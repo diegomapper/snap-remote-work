@@ -48,6 +48,27 @@ header {
     display: none;
 }
 
+/* MOBILE MENU */
+.mobile__menu {
+    width: 60%;
+    position: absolute;
+    background-color: red;
+    right: 0rem;
+    top: 0rem;
+    bottom: 0rem;
+    opacity: 70%;
+}
+
+.mobile__menu--options {
+    font-size: var(--paragraph);
+    color: var(--almost-black);
+    display: flex;
+
+}
+
+.mobile__menu--options ul {
+    list-style: none;
+}
 /* MAIN SECTION */
 
 main {
