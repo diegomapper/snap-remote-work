@@ -6,7 +6,7 @@ function toggleFeaturesMenuDropdown() {
     arrowIcon.classList.toggle('arrow-up');
 }
 
-window.onclick = function(event) {
+window.addEventListener('click', function(event) {
     if (!event.target.matches('#dropFeatures')) {
         const dropdowns = document.getElementsByClassName('drop-features');
         const arrowIcons = document.getElementsByClassName('arrow-up');
@@ -19,7 +19,7 @@ window.onclick = function(event) {
             }
         }
     }
-}
+});
 
 // Company Dropdown Menu
 function toggleCompanyMenuDropdown() {
@@ -29,7 +29,7 @@ function toggleCompanyMenuDropdown() {
     arrowIcon.classList.toggle('arrow-up');
 }
 
-window.onclick  = function(event) {
+window.addEventListener('click', function(event) {
     if (!event.target.matches('#dropCompany')) {
         const dropdowns = document.getElementsByClassName('drop-company');
         const arrowIcons = document.getElementsByClassName('arrow-up');
@@ -42,4 +42,4 @@ window.onclick  = function(event) {
             }
         }
     }
-}
+});
