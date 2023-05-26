@@ -1,5 +1,5 @@
-function toggleDropdown() {
-    const dropdown = document.getElementById('myDropdown');
+function toggleMenuDropdown() {
+    const dropdown = document.getElementById('menuDropdown');
     const arrowIcon = document.getElementById('arrowIcon')
     dropdown.classList.toggle('show');
     arrowIcon.classList.toggle('arrow-up');
@@ -10,10 +10,10 @@ window.onclick = function(event) {
         const dropdowns = document.getElementsByClassName('dropdown-content');
         const arrowIcons = document.getElementsByClassName('arrow-up');
         for (let i = 0; i < dropdowns.length; i++) {
-            const openDropdown = dropdowns[i];
+            const openDropdownMenu = dropdowns[i];
             const arrowIcon = arrowIcons[i];
-            if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
+            if (openDropdownMenu.classList.contains('show')) {
+                openDropdownMenu.classList.remove('show');
                 arrowIcon.classList.remove('arrow-up');
             }
         }
