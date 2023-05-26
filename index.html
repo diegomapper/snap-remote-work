@@ -26,8 +26,9 @@
             <div class="desktop-menu">
                 <div class="desktop-menu__options">
                     <ul>
-                        <li>Features<img src="./images/icon-arrow-down.svg" alt="Down arrow">
-                            <div class="desktop-menu__options--features-menu">
+                        <div class="dropdown">
+                        <li id="dropbtn">Features<img src="./images/icon-arrow-down.svg" alt="Down arrow">
+                            <div class="desktop-menu__options--features-menu dropdown-content" id="myDropdown">
                                 <ul>
                                     <li><div><img src="./images/icon-todo.svg" alt=""></div>Todo List</li>
                                     <li><div><img src="./images/icon-calendar.svg" alt=""></div>Calendar</li>
@@ -36,6 +37,7 @@
                                 </ul>
                             </div>
                         </li>
+                        </div>
                         <li>Company<img src="./images/icon-arrow-down.svg" alt="Down arrow">
                             <div class="desktop-menu__options--company-menu">
                                 <ul>
@@ -86,5 +88,6 @@
             </footer>
         </article>
     </main>
+    <script src="./app.js"></script>
 </body>
 </html>
