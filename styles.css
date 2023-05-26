@@ -295,7 +295,8 @@ footer {
         margin-top: 5rem;
     }
 
-    .dropdown-content {
+    .drop-features,
+    .drop-company {
         display: none;
         z-index: 1;
     }
@@ -306,7 +307,6 @@ footer {
 
     .arrow-down {
         transition: transform 0.1s;
-        /* transform-origin: center; */
     }
     .arrow-up {
         transform: rotateX(180deg);

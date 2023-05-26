@@ -26,11 +26,11 @@
             <div class="desktop-menu">
                 <div class="desktop-menu__options">
                     <ul>
-                        <div class="dropdown">
-                            <li id="dropbtn" onclick="toggleMenuDropdown()">
+                        <div class="dropdown-features">
+                            <li id="dropFeatures" onclick="toggleFeaturesMenuDropdown()">
                                 Features
-                                <img id="arrowIcon" class="arrow-down" src="./images/icon-arrow-down.svg" alt="Down arrow">
-                                <div class="desktop-menu__options--features-menu dropdown-content" id="menuDropdown">
+                                <img id="arrowFeatures" class="arrow-down" src="./images/icon-arrow-down.svg" alt="Down arrow">
+                                <div class="desktop-menu__options--features-menu drop-features" id="featuresDropdown">
                                     <ul>
                                         <li><div><img src="./images/icon-todo.svg" alt=""></div>Todo List</li>
                                         <li><div><img src="./images/icon-calendar.svg" alt=""></div>Calendar</li>
@@ -40,15 +40,19 @@
                                 </div>
                             </li>
                         </div>
-                        <li>Company<img src="./images/icon-arrow-down.svg" alt="Down arrow">
-                            <div class="desktop-menu__options--company-menu">
-                                <ul>
-                                    <li>History</li>
-                                    <li>Our Team</li>
-                                    <li>Blog</li>
-                                </ul>
-                            </div>
-                        </li>
+                        <div class="dropdown-company">
+                            <li id="dropCompany" onclick="toggleCompanyMenuDropdown()">
+                                Company
+                                <img id="arrowCompany" class="arrow-down" src="./images/icon-arrow-down.svg" alt="Down arrow">
+                                <div class="desktop-menu__options--company-menu drop-company" id="companyDropdown">
+                                    <ul>
+                                        <li>History</li>
+                                        <li>Our Team</li>
+                                        <li>Blog</li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </div>
                         <li>Careers</li>
                         <li>About</li>
                     </ul>
