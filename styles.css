@@ -52,22 +52,33 @@ header {
 .mobile__menu {
     width: 60%;
     position: absolute;
-    background-color: red;
+    background-color: greenyellow;
     right: 0rem;
     top: 0rem;
     bottom: 0rem;
     opacity: 70%;
+    padding: 2rem;
+}
+
+.mobile__menu--closeicon {
+    display: flex;
+    justify-content: flex-end;
+    /* padding: 2rem; */
 }
 
 .mobile__menu--options {
     font-size: var(--paragraph);
     color: var(--almost-black);
     display: flex;
-
 }
 
 .mobile__menu--options ul {
     list-style: none;
+}
+
+.dropdown-features-mobile,
+.dropdown-company-mobile {
+    display: none;
 }
 /* MAIN SECTION */
 
